@@ -84,7 +84,7 @@ const Home: NextPage = () => {
                 src={gif}
                 width={225}
                 height={225}
-                alt="The Palestinians"
+                alt="Redthisis"
               />
             </div>
             <div>
