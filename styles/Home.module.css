@@ -1,11 +1,11 @@
 .root {
   --bg-color: #000000;
   --font-color-white: #ffffff;
-  --font-color-red: #C53044;
+  --font-color-red: #FF0000;
   --btn-bg-color: #ffffff;
   --btn-hover: #000000; 
   --accent-color: #ee0000;
-  --header-shadow: #C53044 0px 0px 5px;
+  --header-shadow: #FF0000 0px 0px 5px;
 }
 
 .container {
@@ -77,7 +77,7 @@
 }
 
 .card {
-  background-color: #1b2129;
+  background-color: #ffffff;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -87,14 +87,15 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 350px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2) !important;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  background-color: #272c34;
-  color: #0ea5e9;
-  border-color: #0ea5e9;
+  background-color: #ffffff;
+  color: #FF0000;
+  border-color: #FF0000;
 }
 
 .card h2 {
@@ -142,7 +143,7 @@
 
 .navbar {
   background: none;
-  color: #C53044;
+  color: #FF0000;
   padding: 0 1rem;
   display: flex;
   justify-content: space-between;
@@ -158,9 +159,11 @@
   font-weight: bold;
   font-style: regular;
   font-size: 1.2rem;
-  background-color: #C53044;
+  text-decoration: none;
+  background-color: #FF0000;
   color: #ffffff;
-  border-radius: 24px;
+  border: none;
+  border-radius: 8px;
   height: 48px;
   transition: all 0.7s ease-in-out;
   padding: 1rem 1rem;
@@ -169,11 +172,11 @@
 
 .navLinks a:hover {
   background-color: #ffffff;
-  color: #C53044;
+  color: #FF0000;
 }
 
 .redlogo {
-  border-radius: 24px !important;
+  border-radius: 8px !important;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2) !important;
   height: 48px !important;
   position: relative !important;
@@ -182,13 +185,13 @@
 
 .heroSection {
   background-color: #ffffff;
-  color: #C53044;
+  color: #FF0000;
   padding: .5rem 1.35rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-radius: 24px;
+  border-radius: 16px;
   max-width: 900px;
   border-color: transparent;
   line-height: 14.5px;
@@ -199,7 +202,7 @@
 .collectionImage {
   overflow: visible;
   margin-right: 1.35rem;
-  border-radius: 24px;
+  border-radius: 8px;
   clip-path: inset(0 0 0 0 round 20px);
   height: 225px;
   width: 225px;
@@ -221,8 +224,8 @@
 .claimInput {
   border: none;
   background-color: #e7e7e7;
-  border-radius: 4px;
-  color: #C53044;
+  border-radius: 8px;
+  color: #FF0000;
   cursor: pointer;
   font-family: VT323;
   font-size: 1.2rem;
@@ -237,8 +240,8 @@
 
 .claimBtn {
   border: none;
-  background-color: #C53044;
-  border-radius: 24px;
+  background-color: #FF0000;
+  border-radius: 8px;
   color: #ffffff;
   cursor: pointer;
   font-family: VT323;
@@ -252,13 +255,13 @@
 }
 
 .claimBtn:hover {
-  background-color: #ffffff !important;
-  color: #C53044 !important;
+  background-color: #eeeeee !important;
+  color: #FF0000 !important;
 }
 
 .Web3Button {
-  background-color: #C53044 !important;
-  border-radius: 24px !important;
+  background-color: #FF0000 !important;
+  border-radius: 8px !important;
   color: #ffffff !important;
   cursor: pointer !important;
   font-family: VT323 !important;
@@ -274,13 +277,14 @@
 }
 
 .Web3Button:hover {
-  background-color: #ffffff !important;
-  color: #C53044 !important;
+  background-color: #eeeeee !important;
+  color: #FF0000 !important;
 }
 
 .connectButton {
-  background-color: #C53044 !important;
-  border-radius: 24px !important;
+  background-color: #FF0000 !important;
+  border-radius: 8px !important;
+  border: none !important;
   color: #ffffff !important;
   cursor: pointer !important;
   font-size: 1.2rem !important;
@@ -296,7 +300,7 @@
 
 .connectButton:hover {
   background-color: #ffffff !important;
-  color: #C53044 !important;
+  color: #FF0000 !important;
 }
 
 .connectWallet {
@@ -324,7 +328,7 @@
 
 .icon a {
   display: inline-flex;
-  color: #C53044;
+  color: #FF0000;
   background-color: #ffffff;
   width: 48px;
   height: 48px;
@@ -336,7 +340,7 @@
 
 .icon a:hover {
   color: #ffffff;
-  background-color: #C53044;
+  background-color: #FF0000;
   width: 65px;
   transition: 0.5s ease-in-out;
 }
@@ -350,6 +354,7 @@
     flex-direction: column;
     margin-bottom: -4.25rem;
     margin-top: -4rem;
+    padding-top: 2rem;
   }
 
   .navbar{
