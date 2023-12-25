@@ -24,7 +24,7 @@ import gif from '../public/Gif.gif'
 const Home: NextPage = () => {
   const address = useAddress();
   const router = useRouter();
-  const maxClaimQuantity = 2;
+  const maxClaimQuantity = 50;
 
   const {
     contract
