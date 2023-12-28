@@ -1,17 +1,17 @@
 import type { AppProps } from "next/app";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
-import { Sepolia } from "@thirdweb-dev/chains";
 import "../styles/globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+// This is the chain your dApp will work on.
+// Change this to the chain your app is built for.
+// You can also import additional chains from `@thirdweb-dev/chains` and pass them directly.
+const activeChain = "mumbai";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider 
-      activeChain={Sepolia}
-      clientId="40a96f7b0605de2c94b14ff8859ac3de"
-      >
+    <ThirdwebProvider activeChain={activeChain}>
       <Navbar />
       <Component {...pageProps} />
       <Footer />
