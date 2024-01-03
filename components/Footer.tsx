@@ -61,7 +61,7 @@ export default function Footer() {
                             <a href="https://medium.com/@redthisis.collection" target='_blank'>
 						        <svg width="48" height="48" viewBox="0 0 2003.71 2003.61">
 							        <path 
-							        fill="social-icons"
+							        fill="currentColor"
 							        d="M2000 1000C2000 448 1552 0 1000 0h0C448 0 0 448 0 1000s448 1000 1000 1000h0c552 0 1000 -448 1000 -1000zM1100 1000c0 246 -198 445 -442 445S216 1246 216 1000S414 555 658 555s442 199 442 445zM1585 1000c0 231 -99 419 -221 419s-221 -188 -221 -419s99 -419 221 -419s221 188 221 419h0zM1784 1000c0 207 -35 375 -78 375s-78 -168 -78 -375s35 -375 78 -375s78 168 78 375z"
 							        />
 						        </svg>
