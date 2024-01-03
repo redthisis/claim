@@ -9,8 +9,8 @@ import Footer from "../components/Footer";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider 
-      activeChain={Sepolia}
-      clientId="40a96f7b0605de2c94b14ff8859ac3de"
+      activeChain={"ethereum"}
+      clientId="01405c39185c0b53b1bb379b1cb449ad"
       >
       <Navbar />
       <Component {...pageProps} />
